@@ -7,4 +7,4 @@
 5. Sai Durga Ram
 
 # BookApp API endpoints
-1. **Recommended Books** - https://openlibrary.org/search.json?q=recommended_books
+1. **Recommended Books** - https://openlibrary.org/search.json?q=best_books
