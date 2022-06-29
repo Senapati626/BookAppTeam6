@@ -1,0 +1,43 @@
+.dashboard-hero{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    align-items: center;
+    margin-top: 2em;
+}
+.dashboard-header{
+    font-family: 'Yusei Magic',sans-serif;
+    color: #29274c;
+    font-size: 24px;
+}
+.dashboard-img img{
+    max-width: 450px;
+}
+
+
+.dashboard-btn-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2em 0;
+    gap: 2em;
+}
+.dashboard-btn-wrapper button{
+    width: 250px;
+    font-size: 22px;
+    padding: 0.75em 1.5em;
+    white-space: nowrap;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Yusei Magic',sans-serif;
+    transition: all 0.2s ease-in-out;
+}
+.dashboard-btn-wrapper button:hover{
+    background-color: #29274c;
+    color: #ffffff;
+    transition: all 0.4s ease-in-out;
+}

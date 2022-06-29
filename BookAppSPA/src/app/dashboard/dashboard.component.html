@@ -1,0 +1,25 @@
+<div class="container">
+    <div class="navbar">
+        <div class="nav-left">
+            <p>bookapp</p>
+        </div>
+        <div class="nav-right">
+            <a href="">profile</a>
+            <a routerLink="/search">search</a>
+            <a href="" (click)="signOut()">logout</a>
+        </div>
+    </div>
+    <div class="dashboard-hero">
+        <div class="dashboard-header">
+            <h1>Welcome Back {{user.userName}}</h1>
+        </div>
+        <div class="dashboard-img">
+            <img src="assets/dashboard.png" alt="">
+        </div>
+    </div>
+    <div class="dashboard-btn-wrapper">
+        <button [routerLink]="['/favourites']">Favourites</button>
+        <button [routerLink]="['/authors']">Authors</button>
+        <button [routerLink]="['/recommended']">Recommendations</button>
+    </div>
+</div>
